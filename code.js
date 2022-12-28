@@ -2,7 +2,7 @@ window.onload = function(){
   let mouse = document.getElementById("mouse");
   
   window.addEventListener("scroll",function(){
-    mouse.style.left = ((window.scrollY+window.innerHeight/2-35)/document.documentElement.scrollHeight*window.innerWidth) +'px';
+    mouse.style.left = (window.scrollY/(document.documentElement.scrollHeight - (window.innerHeight*0.7))) * window.innerWidth +'px';
   });
   
   document.getElementById("intro").addEventListener('click',function(){movePage(0)});
