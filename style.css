@@ -1,0 +1,97 @@
+body {
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none
+}
+
+.logo{
+  height: 50px;
+  margin: 0;
+}
+
+.header{
+  position:fixed;
+
+  height: 50px;
+  width: 100%;
+
+  left: 0;
+  top: 0;
+  margin: 0;
+  padding: 10px;
+
+  display: flex;
+  align-items: center;
+
+  border: 0;
+  border-bottom: 1px;
+  border-style: solid;
+  border-color: rgb(128, 128, 128);
+  background-color: white;
+}
+
+.middle{
+  margin: 0px;
+  margin-left: 60px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 600px;
+  max-width: 70%;
+
+  font-family: Noto Sans Korean;
+  font-weight: 800;
+  font-size: 20px;
+}
+
+.content{
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 50%;
+  margin-top: 70px;
+}
+
+.info{
+  margin: 0px;
+  margin-top: 40px;
+  width: 100%;
+}
+
+.info,
+.nav,
+.fund,
+.credit{
+  transition: all 0.2s;
+}
+
+.intro:hover,
+.nav:hover,
+.fund:hover,
+.credit:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.intro:active,
+.nav:active,
+.fund:active,
+.credit:active{
+  color:rgb(128, 128, 128);
+}
+
+.mouse{
+  position: fixed;
+  top: 56px;
+  margin: 0;
+  z-index: 3;
+}
+
+.cheese{
+  position: fixed;
+  top: 30px;
+  right: 50px;
+  z-index: 3;
+}
