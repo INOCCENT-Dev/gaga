@@ -6,7 +6,7 @@ window.onload = function(){
   });
   
   document.getElementById("intro").addEventListener('click',function(){movePage(0)});
-  document.getElementById("nav").addEventListener('click',function(){movePage(1250)});
+  document.getElementById("nav").addEventListener('click',function(){movePage(1150)});
   document.getElementById("fund").addEventListener('click',function(){movePage(2000)});
   document.getElementById("credit").addEventListener('click',function(){movePage(3000)});
 }
